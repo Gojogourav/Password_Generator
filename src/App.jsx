@@ -68,7 +68,7 @@ function App() {
               <div className='flex mt-4 gap-5 items-start md:flex-row flex-col md:items-center  '>
                 <input type="number" value={Length} onChange={(e)=>{
                   setLength(e.target.value)
-                }}  className='border-gray-300 w-11  border-2 h-10'  />
+                }}  className='border-gray-300 w-11 text-center border-2 h-10'  />
                 
                 <input type="range" value={Length}  min={1} max={50} className='mr-20 w-64' onChange={
                   (e)=>{
